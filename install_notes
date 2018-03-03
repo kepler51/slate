@@ -1,11 +1,15 @@
 
 
-#install ruby2.3 ruby-dev, gem
+#install ruby2.3 ruby-dev (ruby23-devel), gem 
+
 
 #install libz
 root@dev1:~£ apt-get install zlib1g zlib1g-dev
 
-#installed bundle stuff locally (makes a subdirectory called bundle):
+#install bundler
+sudo gem2.3 install bundler
+
+#instal bundle stuff locally (makes a subdirectory called bundle):
 bundle install --path bundle
 
 
