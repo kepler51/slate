@@ -1,0 +1,11 @@
+
+
+#install ruby2.3 ruby-dev, gem
+
+#install libz
+root@dev1:~£ apt-get install zlib1g zlib1g-dev
+
+#installed bundle stuff locally (makes a subdirectory called bundle):
+bundle install --path bundle
+
+
