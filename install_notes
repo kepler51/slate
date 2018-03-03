@@ -1,15 +1,12 @@
 
 
-#install ruby2.3 ruby-dev (ruby23-devel), gem 
+#install ruby2.3 ruby-dev (ruby23-devel), gem  as root
 
-
-#install libz
+#install libz as root
 root@dev1:~£ apt-get install zlib1g zlib1g-dev
 
 #install bundler
 sudo gem2.3 install bundler
 
-#instal bundle stuff locally (makes a subdirectory called bundle):
+#install bundle stuff in slate directory (makes a subdirectory called bundle):
 bundle install --path bundle
-
-
