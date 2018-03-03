@@ -1,3 +1,5 @@
+.github
+Gemfile.lock
 *.gem
 *.rbc
 .bundle
